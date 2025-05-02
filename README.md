@@ -22,13 +22,11 @@ The dataset consists of a table named `Transactions` with the following columns:
 - PostgreSQL 
 - GitHub
 
----
-
 ## Task Performed
 
 1. **Created a table** `Transactions` and inserted data into it.
 
-  ```CREATE TABLE Transactions (
+  CREATE TABLE Transactions (
     Transaction_ID INT PRIMARY KEY,
     order_date DATE,
     Product_Category VARCHAR(100),
@@ -37,7 +35,7 @@ The dataset consists of a table named `Transactions` with the following columns:
     Unit_Price DECIMAL(10, 2),
     Total_Revenue DECIMAL(10, 2),
     Region VARCHAR(100),
-    Payment_Method VARCHAR(100)```
+    Payment_Method VARCHAR(100)
 );
 2. Wrote SQL query to:
    - Extract year and month from `order_date`
